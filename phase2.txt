@@ -5,7 +5,7 @@ URL: https://glacial-badlands-53480.herokuapp.com/
 **************************************************************************
                              Decription
 **************************************************************************
-Petinder is a 
+Petinder is a online networking website for pets. Users can create accounts and manage their pets' infomation. Users can also upgrade to VIP by make a payment through the website. After becoming a VIP, users will able to find match for their pets, matchs will show some other pets' infomation for user to select.
 
 
 **************************************************************************
