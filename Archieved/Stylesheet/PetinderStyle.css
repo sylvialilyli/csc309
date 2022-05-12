@@ -1,0 +1,171 @@
+body {
+	font-family: Lato;
+	font-style: normal;
+	color: rgba(112,112,112,1);
+}
+
+p {
+	font-size: 25px;
+}
+
+/*
+The Univerisal Header!!
+*/
+
+#Header {
+	height: 170px;
+	margin-left: 100px;
+	margin-right: 78px;
+	margin-top: 80px;
+	display: block;
+	overflow: auto;
+
+}
+
+#Header_Main {
+	float: right;
+}
+
+#Logo {
+	display: inline-block;
+	float: left;
+}
+
+.Header_Text {
+	padding-right: 27px;
+	padding-left: 27px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+/*The Univerial Footer*/
+
+#Footer {
+	position: relative;
+	height: 418px;
+	margin-top: 126px;
+	background: rgba(105,105,105,1);
+	display: flex;
+	justify-content: space-between;
+}
+
+#Logo_Square {
+	margin-left: 175px;
+	margin-top: 175px;
+	margin-bottom: 120px;
+	float: left;
+}
+
+#About_Us_Sub {
+	height: 332px;
+	width: 316px;
+	margin-top: 88px;
+	margin-left: 240px;
+	position: relative;
+	float: left;
+}
+
+#Footer_Title{
+	color: white;
+}
+
+#Footer_Text{
+	color: white;
+	font-size: 25px;
+	margin-top: 46px;
+	margin-left: 80px;
+	width: 224px;
+	height: 159px;
+}
+
+#Footer_Text_Second{
+	color: white;
+	font-size: 25px;
+	margin-top: 183px;
+	margin-left: 80px;
+	width: 224px;
+	height: 238px;
+	position: relative;
+	float: left;
+}
+
+.Subliner {
+	position: relative;
+	float: left;
+	width: 2px;
+	height: 200px;
+	margin-left: 80px;
+	margin-top: 137px;
+	margin-bottom: 80px;
+	background: white;
+}
+
+.Picture_Footer {
+	position: relative;
+	float: left;
+	margin-top: 137px;
+	margin-left: 110px;
+	margin-right: 100px;
+	width: 360px;
+	height: 200px;
+	background: grey;
+
+}
+
+#About_Us_Sum {
+
+	width: 316px;
+	height: 249px;
+	left: 550px;
+	top: 88px;
+	overflow: visible;
+}
+
+/*
+Text Button Image Style Here
+*/
+
+.Title {
+	padding-bottom: 50px;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.Subtitle{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.Text_Box_Title{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	max-width: 460px;
+}
+
+.Button {
+  border-radius: 35px;
+  background: rgba(112,112,112,1);
+  width: 250px;
+  height: 60px;
+	font-family: Lato;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	line-height: 55px
+}
+
+.Long_Text_Box {
+  border-radius: 35px;
+  background: white;
+  border-style: solid;
+  width: 480px;
+  height: 60px;
+}
+
+
+.Image_Holder {
+	background: rgba(229,229,229,1);
+}

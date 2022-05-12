@@ -1,0 +1,88 @@
+body {
+	font-family: Lato;
+	font-style: normal;
+	color: rgba(112,112,112,1);
+}
+
+p {
+	font-size: 20px;
+}
+
+
+/*
+Text Button Image Style Here
+*/
+
+.Title {
+	padding-bottom: 50px;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+.Subtitle{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.Text_Box_Title{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	max-width: 460px;
+}
+
+.Button-link {
+	text-decoration: none;
+}
+
+.MuiButton-root.Button {
+	margin: 1vw;
+  border-radius: 35px;
+	display: block;
+  background: rgba(112,112,112,1);
+  width: 10vw;
+  height: 2vw;
+  font-family: Lato;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  line-height: 50%;
+}
+
+.MuiButton-root.Button:hover {
+	color: rgba(112,112,112,1);
+	background-color: white;
+	border: solid rgba(112,112,112,1) 1px;
+}
+
+.Long_Text_Box {
+  border-radius: 35px;
+  background: white;
+  border-style: solid;
+  width: 480px;
+  height: 60px;
+}
+
+
+.Image_Holder {
+	background: rgba(229,229,229,1);
+}
+
+/* Banner and Title for subpages */
+#Banner {
+	height: 35vw;
+	max-height: 350px;
+	background-color: rgba(229,229,229,1);
+}
+#Title {
+	position: relative;
+	left: 18%;
+	top: 30%;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: min(5vw, 60px);
+	color: rgba(112,112,112,1);
+}

@@ -1,0 +1,120 @@
+#Banner {
+	height: 350px;
+	background-color: rgba(229,229,229,1);
+}
+#Title {
+	position: relative;
+	left: 150px;
+	top: 85px;
+	width: 534px;
+	height: 101px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(112,112,112,1);
+}
+
+#MatchResult {
+	margin-top: 50px;
+	margin-left: 5%;
+	height: 80vh;
+	width: 90%;
+	background-color: rgba(229,229,229,1);
+}
+
+#ProfileInfo { 
+	margin-left: 10%;
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.profileImg {
+	position: relative;
+	width: 210px;
+	height: 210px;
+	left: 20%;
+	top: 20%;
+	background-color: rgba(211,210,210,1);
+	border-radius: 50%;
+	overflow: visible;
+}
+
+#userName {
+	position: relative;
+	left: 22%;
+	top: 25%;
+	width: 191px;
+	height: 39px;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(112,112,112,1);
+	overflow: visible;
+
+}
+
+#ProfileDetails {
+	margin-left: 5%;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#profileDescription {
+	position: relative;
+	top: 5%;
+	height: 85%;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(105,105,105,1);
+	overflow: auto;
+}
+
+#contactBtn {
+	position:relative;
+	top: 6%;
+	left: 45%;
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#matchBtn {
+	position: relative;	
+	width:250px;
+	top:30px;
+	left: 42%;
+	clear: both;
+}
+
+.imageOnWall {
+	width:100%;
+	height: 100%;
+}
+	
+
+.button {
+		width: 250px;
+		height: 60px;
+		background-color: rgba(255,255,255,1);
+		border: 1.5px solid rgba(105,105,105,1);
+		border-radius: 20px;
+		text-align: center;
+		line-height: 55px;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(105,105,105,1);
+		margin-bottom: 30px;
+}

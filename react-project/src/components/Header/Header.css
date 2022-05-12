@@ -1,0 +1,51 @@
+#Header {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-top: 2vh;
+	margin-bottom: 3.5vh;
+	display: block;
+	overflow: auto;
+}
+
+#Header_Main {
+	margin-top: 3.5%;
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+	min-width: 380px;
+}
+
+li {
+	padding-right: 1.7vw;
+	padding-left: 1.7vw;
+}
+
+.header_button-link {
+	text-decoration: none;
+}
+
+.header_button .MuiButton-label {
+	font-weight: bold;
+	font-size: 1.2vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+.MuiButton-root.header_button {
+	border-radius: 10px;
+	color: rgba(112,112,112,1);
+}
+
+.MuiButton-root.header_button:hover {
+	background-color: rgba(112,112,112,1);
+	color: white;
+}
+
+#Logo {
+	padding: 1%;
+	padding-top: 2%;
+	position: relative;
+	float: left;
+	width: 15%;
+	min-width: 300px;
+}

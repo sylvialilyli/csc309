@@ -1,0 +1,872 @@
+.mediaViewInfo {
+		--web-view-name: Gallery;
+		--web-view-id: Gallery;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Gallery;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Gallery {
+		position: absolute;
+		width: 1920px;
+		height: 2250px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Gallery;
+		--web-view-id: Gallery;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Footer {
+		position: absolute;
+		width: 1920px;
+		height: 418px;
+		left: 0px;
+		top: 1835px;
+		overflow: visible;
+	}
+	.Background {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 418px;
+		left: 0px;
+		top: 0px;
+	}
+	#MainText {
+		position: absolute;
+		left: 1006px;
+		top: 178px;
+		overflow: hidden;
+		width: 225px;
+		height: 159px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Logo_Square {
+		position: absolute;
+		width: 140.122px;
+		height: 117.692px;
+		left: 180px;
+		top: 181.022px;
+		overflow: visible;
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 11.545px;
+		height: 19.402px;
+		left: 128.577px;
+		top: 97.357px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_15 {
+		overflow: visible;
+		position: absolute;
+		width: 2.204px;
+		height: 0.163px;
+		left: 122.556px;
+		top: 107.766px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_16 {
+		overflow: visible;
+		position: absolute;
+		width: 20.95px;
+		height: 25.198px;
+		left: 41.448px;
+		top: 91.877px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_17 {
+		overflow: visible;
+		position: absolute;
+		width: 16.668px;
+		height: 19.324px;
+		left: 66.964px;
+		top: 97.435px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_18 {
+		overflow: visible;
+		position: absolute;
+		width: 55.031px;
+		height: 47.8px;
+		left: 43.723px;
+		top: 33.273px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_19 {
+		overflow: visible;
+		position: absolute;
+		width: 23.947px;
+		height: 30.755px;
+		left: 72.354px;
+		top: 0.638px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_20 {
+		overflow: visible;
+		position: absolute;
+		width: 23.783px;
+		height: 31.754px;
+		left: 45.001px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_21 {
+		overflow: visible;
+		position: absolute;
+		width: 23.682px;
+		height: 31.664px;
+		left: 21.436px;
+		top: 22.678px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_22 {
+		overflow: visible;
+		position: absolute;
+		width: 22.91px;
+		height: 31.103px;
+		left: 97.331px;
+		top: 23.268px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 21.436px;
+		height: 28.601px;
+		left: 0px;
+		top: 89.091px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_24 {
+		overflow: visible;
+		position: absolute;
+		width: 17.402px;
+		height: 19.67px;
+		left: 22.557px;
+		top: 97.387px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_25 {
+		overflow: visible;
+		position: absolute;
+		width: 17.402px;
+		height: 19.67px;
+		left: 107.609px;
+		top: 97.387px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_26 {
+		overflow: visible;
+		position: absolute;
+		width: 17.603px;
+		height: 27.884px;
+		left: 86.819px;
+		top: 89.181px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Subliner {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 200px;
+		left: 936.5px;
+		top: 136.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Subliner_ {
+		overflow: visible;
+		position: absolute;
+		width: 1px;
+		height: 200px;
+		left: 1300.5px;
+		top: 136.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#About_Us_Sum {
+		position: absolute;
+		width: 316px;
+		height: 249px;
+		left: 550px;
+		top: 88px;
+		overflow: visible;
+	}
+	#MainText_ {
+		position: absolute;
+		left: 92px;
+		top: 90px;
+		overflow: hidden;
+		width: 225px;
+		height: 159px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Subtitle {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 239px;
+		height: 52px;
+		text-align: right;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+	.Picture {
+		position: absolute;
+		overflow: visible;
+		width: 360px;
+		height: 200px;
+		left: 1410px;
+		top: 137px;
+	}
+	#Header {
+		position: absolute;
+		width: 1670px;
+		height: 50.111px;
+		left: 100px;
+		top: 80px;
+		overflow: visible;
+	}
+	#Logo {
+		position: absolute;
+		width: 200px;
+		height: 50.111px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 15.689px;
+		height: 26.366px;
+		left: 184.311px;
+		top: 22.478px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_2 {
+		overflow: visible;
+		position: absolute;
+		width: 2.994px;
+		height: 0.222px;
+		left: 176.129px;
+		top: 35.953px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_3 {
+		overflow: visible;
+		position: absolute;
+		width: 28.469px;
+		height: 34.242px;
+		left: 59.658px;
+		top: 15.032px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 22.65px;
+		height: 26.259px;
+		left: 96.198px;
+		top: 22.584px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_5 {
+		overflow: visible;
+		position: absolute;
+		width: 10.802px;
+		height: 9.383px;
+		left: 80.795px;
+		top: 6.531px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_6 {
+		overflow: visible;
+		position: absolute;
+		width: 4.701px;
+		height: 6.037px;
+		left: 86.571px;
+		top: 0.125px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_7 {
+		overflow: visible;
+		position: absolute;
+		width: 4.668px;
+		height: 6.233px;
+		left: 80.924px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_8 {
+		overflow: visible;
+		position: absolute;
+		width: 4.648px;
+		height: 6.215px;
+		left: 76.06px;
+		top: 4.451px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_9 {
+		overflow: visible;
+		position: absolute;
+		width: 4.497px;
+		height: 6.105px;
+		left: 91.722px;
+		top: 4.567px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_10 {
+		overflow: visible;
+		position: absolute;
+		width: 29.129px;
+		height: 38.866px;
+		left: 0px;
+		top: 11.245px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_11 {
+		overflow: visible;
+		position: absolute;
+		width: 23.648px;
+		height: 26.73px;
+		left: 32.415px;
+		top: 22.519px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_12 {
+		overflow: visible;
+		position: absolute;
+		width: 23.648px;
+		height: 26.73px;
+		left: 155.817px;
+		top: 22.519px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_13 {
+		overflow: visible;
+		position: absolute;
+		width: 23.921px;
+		height: 37.891px;
+		left: 124.772px;
+		top: 11.368px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Manage_My_Pets {
+		position: absolute;
+		left: 937px;
+		top: 11px;
+		overflow: visible;
+		width: 205px;
+		height: 39px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#Find_My_Match {
+		position: absolute;
+		left: 700px;
+		top: 10px;
+		overflow: visible;
+		width: 191px;
+		height: 39px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#Upgrade_To_VIP {
+		position: absolute;
+		left: 1320px;
+		top: 11px;
+		overflow: visible;
+		width: 187px;
+		height: 38px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#Gallery_br {
+		position: absolute;
+		left: 1188px;
+		top: 11px;
+		overflow: visible;
+		width: 87px;
+		height: 38px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#About_Us_ {
+		position: absolute;
+		left: 1553px;
+		top: 11px;
+		overflow: hidden;
+		width: 118px;
+		height: 39px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(112,112,112,1);
+	}
+	#Title_Head {
+		position: absolute;
+		width: 1920px;
+		height: 350px;
+		left: 0px;
+		top: 230px;
+		overflow: visible;
+	}
+	.Hero_Image {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+	}
+	#Title {
+		position: absolute;
+		left: 150px;
+		top: 70px;
+		overflow: visible;
+		width: 534px;
+		height: 101px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_Display {
+		position: absolute;
+		width: 1670px;
+		height: 170px;
+		left: 100px;
+		top: 650px;
+		overflow: visible;
+	}
+	#VIP {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_b {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 282px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image_b {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage_b {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name_b {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_ca {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 564px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image_ca {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage_ca {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name_ca {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_cb {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 846px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image_cb {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage_cb {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name_cc {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_cd {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 1128px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image_ce {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage_cf {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name_cg {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#VIP_ch {
+		position: absolute;
+		width: 260px;
+		height: 170px;
+		left: 1410px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Profile_Image_ci {
+		position: absolute;
+		overflow: visible;
+		width: 170px;
+		height: 170px;
+		left: 35px;
+		top: 0px;
+	}
+	.Subimage_cj {
+		position: absolute;
+		overflow: visible;
+		width: 40px;
+		height: 40px;
+		left: 220px;
+		top: 130px;
+	}
+	#User_Name_ck {
+		position: absolute;
+		left: 0px;
+		top: 66px;
+		overflow: visible;
+		width: 241px;
+		height: 49px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(112,112,112,1);
+	}
+	#Image_Wall {
+		position: absolute;
+		width: 1671.5px;
+		height: 874.5px;
+		left: 99px;
+		top: 890px;
+		overflow: visible;
+	}
+	.Pic2 {
+		position: absolute;
+		overflow: visible;
+		width: 406px;
+		height: 340px;
+		left: 633px;
+		top: 178px;
+	}
+	.Pic2_cn {
+		position: absolute;
+		overflow: visible;
+		width: 406px;
+		height: 340px;
+		left: 0px;
+		top: 356px;
+	}
+	.Pic2_co {
+		position: absolute;
+		overflow: visible;
+		width: 406px;
+		height: 340px;
+		left: 1054px;
+		top: 534px;
+	}
+	.Pic2_cp {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 1px;
+		top: 178px;
+	}
+	.Pic2_cq {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 844px;
+		top: 0px;
+	}
+	.Pic2_cr {
+		position: absolute;
+		overflow: visible;
+		width: 1038px;
+		height: 162px;
+		left: 1px;
+		top: 712px;
+	}
+	.Pic2_cs {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 635px;
+		top: 534px;
+	}
+	.Pic2_ct {
+		width: 340px;
+		height: 194px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-99px, -1008px) matrix(1,0,0,1,449.5,1437.5) rotate(90deg);
+		transform-origin: center;
+	}
+	.Pic2_cu {
+		width: 340px;
+		height: 194px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-99px, -1008px) matrix(1,0,0,1,1503.5,1615.5) rotate(90deg);
+		transform-origin: center;
+	}
+	.Pic2_cv {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 212px;
+		top: 0px;
+	}
+	.Pic2_cw {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 1266px;
+		top: 178px;
+	}
+	.Pic2_cx {
+		position: absolute;
+		overflow: visible;
+		width: 405px;
+		height: 162px;
+		left: 1055px;
+		top: 356px;
+	}
+	.Pic1 {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 162px;
+		left: 633px;
+		top: 0px;
+	}
+	.Pic1_cz {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 162px;
+		left: 1px;
+		top: 0px;
+	}
+	.Pic1_c {
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		height: 162px;
+		left: 423px;
+		top: 178px;
+	}
+	.Pic1_da {
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		height: 162px;
+		left: 1055px;
+		top: 178px;
+	}
+	.Pic1_db {
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		height: 162px;
+		left: 1476px;
+		top: 356px;
+	}
+	.Pic1_dc {
+		position: absolute;
+		overflow: visible;
+		width: 194px;
+		height: 162px;
+		left: 1266px;
+		top: 0px;
+	}
+	.Pic1_dd {
+		position: absolute;
+		overflow: visible;
+		width: 195px;
+		height: 162px;
+		left: 1476px;
+		top: 0px;
+	}

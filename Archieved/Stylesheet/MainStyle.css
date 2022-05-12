@@ -1,0 +1,151 @@
+/*Hero Space*/
+
+#Hero_Space {
+	position: relative;
+	height: 560px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#Hero_Space_Left {
+	float: left;
+}
+
+#Paragraph {
+	max-width: 450px;
+}
+
+#Main_Button{
+	position: relative;
+	top: 60px;
+}
+
+#Hero_Image {
+	width: 60%;
+	height: 560px;
+	left: 650px;
+	top: 0px;
+	float: right;
+}
+
+/*Events*/
+
+#Events {
+	position: relative;
+	height: 465px;
+	margin-top: 126px;
+	margin-left: 100px;
+	margin-right: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Event {
+
+	width: 500px;
+	height: 465px;
+	margin-right: 50px;
+	float: left;
+		position: relative;
+}
+
+.Event_Text {
+	position: relative;
+	margin-top: 20px;
+	width: 500px;
+	height: 125px;
+	float: left;
+}
+
+.Event_Pic {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	background: rgba(229,229,229,1);
+	float: left;
+}
+
+/*Events*/
+
+#Gallery {
+	position: relative;
+	height: 560px;
+	margin-top: 126px;
+	background: rgba(229,229,229,1);
+}
+
+#Picture {
+	position: relative;
+	width: 100%;
+	margin-top: 60px;
+	float: left;
+	display: flex;
+  justify-content: space-around;
+}
+
+.Pic4 {
+	position: relative;
+	width: 25%;
+	height: 420px;
+	margin: 10px;
+	background: rgba(178,178,178,1);
+	float: left;
+}
+
+/*About Us*/
+
+#About_Us {
+	position: relative;
+	height: 500px;
+	margin-top: 126px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#About_Us_Left {
+	position: relative;
+	float: left;
+}
+
+#About_Us_Right {
+	position: relative;
+	float: right;
+}
+
+#About_Us_Title{
+	float: right;
+	text-align: right;
+	width: 100%;
+	display: block;
+}
+
+.About_Us_Big {
+	width: 800px;
+	height: 500px;
+	background: rgba(229,229,229,1);
+	float: left;
+	margin-right:-620px;
+}
+
+.About_Us_Small {
+	width: 400px;
+	height: 270px;
+	margin-left: -300px;
+	background: rgba(229,229,229,1);
+	float: right;
+}
+
+#MainText_Left {
+	position: relative;
+	margin-top: 20px;
+	width: 800px;
+	float: left;
+}
+
+#MainText_Right {
+	position: relative;
+	margin-top: 20px;
+	width: 456px;
+	float: left;
+	text-align: right;
+}

@@ -1,0 +1,60 @@
+#Upgrade_Title {
+	margin-left: 150px;
+	padding: 0px;
+}
+
+#Upgrading {
+	position: relative;
+	width: 1300px;
+	height: 780px;
+	margin: auto;
+	margin-bottom: -30px;
+	background: rgba(229,229,229,1);
+}
+
+#Account_Difference {
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 1120px;
+	height: 400px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Account{
+	margin-top: 110px;
+	max-width: 452px;
+	max-height: 500px;
+	position: relative;
+	float: left;
+}
+
+#Upgrade_Subliner{
+	height: 320px;
+	width: 5px;
+	margin-left: 0px;
+	position: relative;
+	float: left;
+}
+
+#Payment {
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	height: auto;
+}
+
+#Card_Number_Box {
+	position: relative;
+	float: left;
+}
+
+#Upgrade_now {
+	margin: auto;
+	width: 1300px;
+	float: center;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,55 @@
+#Login {
+	position: relative;
+	height: 750px;
+	margin: 140px;
+	padding: 100px;
+	padding-top: 200px;
+	background: rgba(229,229,229,1);
+	display: flex;
+	justify-content: space-around;
+}
+
+.Set{
+	height: 600px;
+	width: 500px;
+	float: left;
+	position: relative;
+}
+
+#Login_Subliner{
+	height: 420px;
+	width: 5px;
+	margin: 0px;
+	float: left;
+	position: relative;
+}
+
+#Payment {
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: auto;
+	height: auto;
+}
+
+#Card_Number_Box {
+	position: relative;
+	float: left;
+	margin-bottom: 35px;
+}
+
+#Upgrade_now {
+	margin-left: 830px;
+	margin-top: -50px;
+	position: relative;
+	float: left;
+	border-radius: 55px;
+	background: rgba(112,112,112,1);
+	width: 250px;
+	height: 80px;
+	font-family: Lato;
+	font-size: 30px;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+}

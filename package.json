@@ -1,0 +1,11 @@
+{
+  "name": "team29",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "npm --prefix react-project install",
+    "start:dev": "concurrently 'npm run --prefix react-project start' 'npm run --prefix react-project/backend server.js start'",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm run --prefix react-project build",
+    "start":"npm run --prefix react-project start"
+  }
+}

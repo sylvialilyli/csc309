@@ -1,0 +1,77 @@
+#Footer {
+	position: relative;
+	height: 20vw;
+	margin-top: 15vh;
+	background: rgba(105,105,105,1);
+	display: flex;
+	justify-content: space-between;
+	clear: both;
+}
+
+#Logo_Square {
+	margin: 6%;
+	margin-right: 0%;
+	width: 10vw;
+	height: 8vw;
+	float: left;
+}
+
+#About_Us_Sub {
+	height: 70%;
+	width: 30%;
+	margin-top: 3%;
+	margin-left: 10%;
+	position: relative;
+	float: left;
+}
+
+#Footer_Title{
+	color: white;
+	font-size: 2vw;
+}
+
+.Footer_Text{
+	color: white;
+	font-size: 1.2vw;
+	margin-top: 10%;
+	max-height: 60%;
+	float: left;
+	overflow: hidden;
+}
+
+#Footer_Text_First {
+	margin-left: 5%;
+}
+
+#Footer_Text_Second{
+	color: white;
+	font-size: 1.2vw;
+	margin-top: 8%;
+	max-width: 30%;
+	max-height: 40%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.Subliner {
+	position: relative;
+	float: left;
+	width: 2px;
+	height: 46%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	background: white;
+}
+
+.Picture_Footer {
+	position: relative;
+	float: left;
+	margin-top: 11%;
+	margin-right: 8%;
+	width: 30%;
+	height: 45%;
+	background: grey;;
+}
+

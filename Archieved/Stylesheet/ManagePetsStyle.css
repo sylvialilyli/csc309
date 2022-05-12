@@ -1,0 +1,143 @@
+#Banner {
+	height: 350px;
+	background-color: rgba(229,229,229,1);
+}
+#Title {
+	position: relative;
+	left: 150px;
+	top: 85px;
+	width: 534px;
+	height: 101px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(112,112,112,1);
+}
+
+#ProfileInfo {
+	height: 306px;
+}
+
+#ProfileImage { 
+	width: 525px;
+	height: 250px;
+	float: left;
+}
+
+.profileImg {
+	position: absolute;
+	width: 210px;
+	height: 210px;
+	left: 210px;
+	top: 555px;
+	background-color: rgba(211,210,210,1);
+	border-radius: 50%;
+	overflow: visible;
+}
+
+.profileSubImg {
+	position: absolute;
+	overflow: visible;
+	width: 40px;
+	height: 40px;
+	left: 200px;
+	top: 763px;
+	background-color: rgba(211,210,210,1);
+	border-radius: 50%;
+}
+
+
+#userName {
+	position: relative;
+	left: 210px;
+	top: 175px;
+	width: 191px;
+	height: 39px;
+	text-align: center;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(112,112,112,1);
+	overflow: visible;
+
+}
+
+#ProfileText {
+	width: 60%;
+	height: 100%;
+	float: left;
+	clear:right;
+}
+
+#profileDescription {
+	position: relative;
+	top: 50px;
+	height: 159px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(105,105,105,1);
+	overflow: auto;
+	float:left;
+}
+
+#profileEditBtn {
+	position:relative;
+	top: 30%;
+	left: 85%;
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#Image_Gallery {
+	position: relative;
+	height: 600px;
+	clear:right;
+}
+
+#Buttons {
+	position: relative;	
+	width:250px;
+	top:313px;
+	left: 120px;
+	float: left;
+}
+
+#Image_Wall {
+	position: relative;
+	width: 65%;
+	height: 80%;
+	left: 242px;
+	top: 120px;
+	float: left;
+}
+
+.imageOnWall {
+	width:100%;
+	height: 100%;
+}
+	
+
+.button {
+		width: 250px;
+		height: 60px;
+		background-color: rgba(255,255,255,1);
+		border: 1.5px solid rgba(105,105,105,1);
+		border-radius: 20px;
+		text-align: center;
+		line-height: 55px;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(105,105,105,1);
+		margin-bottom: 30px;
+}

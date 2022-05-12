@@ -1,0 +1,239 @@
+This is an instruction of using Petinder app.
+
+URL: https://glacial-badlands-53480.herokuapp.com/
+
+
+
+**************************************************************************
+                             Decription
+**************************************************************************
+Petinder is a online social dating website for pets. Users can create accounts 
+and manage pet's infomation. Users can also upgrade to VIP by make a payment 
+through the website. After becoming a VIP, users will able to find match for 
+their pets, matches will show matched pets' infomation for user.
+
+
+**************************************************************************
+                             START     UP
+**************************************************************************
+To initial the app:
+   1. Access the app through url https://glacial-badlands-53480.herokuapp.com/
+      in your browser.
+   2. Click the signup/login button on the main page, it would be on the middle-
+      -left of the page.
+
+   If you need to signup a new account:
+   1. Type in your sign-up information on the signup section of the page.
+   2. Click "signup" button to complete signup.
+        -- If you receive a message as "Successfully Registered", you have
+           signed up a new account successfully.
+        -- If you receive a message as "Username not available", the username
+           you typed is already used by another user, and you would need to 
+           sign up with another username.
+   3. After signing up, you will be directed to the page of pet registration.
+      Please fill in the form with your pet's information.
+   4. After submitting the pet's information form, you will be directed to the 
+      main page. Start browsing the app and enjoy your journey!
+
+   If you need to login to your account:
+   1. Fill your login information in the login section, tick "As admin" box if 
+      you will login as a admin, and click "sign in" button.
+   2. Default user account:
+      username: user
+      password: user
+
+      Default admin account:
+      username: admin
+      password: admin
+      As admin: yes (please tick this box when you attempt to login with admin 
+      account!)
+   
+      -- If you receive a message as "Successfully logged in", you have logged 
+         in successfully.
+      -- If you receive a message as "Username or password not found", you entered
+         incorrect username/password. (You either enter a wrong password, or the 
+         username entered is not found in our database.)
+   3. After logging in as a user, you will be directed to the main page of the 
+      website. After logging in as admin, you will be directed to the admin dashboard.
+
+
+   If you need to logout:
+   1. For users: Go to main page (Click the logo on the top-left of each page), and 
+                 click "logout" button at the same place as the previous "signup/login"
+                 button.
+   2. For admin: Scroll down to see the "Log Out" button at the second panel, click it
+                 to log out.
+
+
+**************************************************************************
+                             FEATURES FOR USER
+**************************************************************************
+There are three main features for user of the app: Manage pet's information, 
+Find match for own pet, and upgrade to VIP account.
+
+Manage Pet's Information:
+    
+    ⚪ Where: After logging in, click the "MANAGE MY PETS" button at the navigator
+              on the top of each page, and then you will be directed to the pet 
+              information management page.
+    ⚪ How: At "Manage my pets" page, click the "Edit" button to update your pet's
+            information. And click "OK" if you have finished entering new information.
+            Your pet's information will be updated then.
+
+Find match for own pet:
+
+    ## Note: This feature is only open to VIP user. ##
+    
+    ⚪ Where: After logging in, click the "FIND MY MATCH" button at the navigator
+              on the top of each page, and then you will be directed to the find match
+              page.
+    ⚪ How: At "Find my match" page, you will see a the information of one of your matched 
+            pets. If you do not feel satisfied with this match, click the "Find Match" 
+            button to switch to another match. If you do not have matched pets, our 
+            friendly developer Rose will help you.
+
+Upgrade to VIP account:
+    
+    ⚪ Where: After logging in, click the "UPGRADE TO VIP" button at the navigator
+              on the top of each page, and then you will be directed to the ugrade 
+              to vip page.
+    ⚪ How: At "Upgrade to vip" page, fill the form with your credit card information,
+            select the length of VIP period you would like to purchase for, and click 
+            the "Add credit" button to buy VIP.
+
+(To logout from user account, see the bottom of "Start Up" part of this txt.)
+
+
+**************************************************************************
+                             FEATURES FOR ADMIN
+**************************************************************************
+There are two main features for admin of the app: View the website statistics,
+and delete user of the website.
+
+View website statistics:
+    
+    ⚪ Where: After logging in as admin, you will see the website statistics 
+              on the first panel on the page. It includes "Registered Users",
+              which shows the number of total registered user (not including 
+              admin user) of this app. It also includes "VIPs", which shows 
+              the number of VIP usrs of this app and the percentage of VIP users
+              out of total users.
+              The percentage information of VIP users will be shown in the tooltip
+              when your mouse is over the doughnut chart.
+    ⚪ How: Click "Update" button, and you will see the most up-to-data website 
+            statistics.
+
+Delete user with given username:
+    
+    ⚪ Where: Scroll to see the second panel of the admin page.  
+    ⚪ How: In the search bar, enter the username of the user you want to delete,
+            then click "Confirm" button. User will be deleted then.
+
+
+(To logout from admin account, see the bottom of "Start Up" part of this txt.)
+
+**************************************************************************
+                             EDIT ON OLD FEATURES
+**************************************************************************
+1. Update Find match algorithm, aggregate and pick matched pets based on
+   their gender and species form our MongoDB database.
+2. Refine the appearance of elements on all pages, make them look clearer 
+   and more elegant.
+3. Cancel the "Events" part of our old design. We have hard time due to the 
+   spread of Covid-19, people would be better to stay at home instead of gathering 
+   in a party. 
+
+
+**************************************************************************
+                             NEW FEATURES ADDED
+**************************************************************************
+1. Use Winston logger to log backend activities.
+2. Add session management.
+3. Distribute similar API routes into seperate files, use Router to redirect.
+4. Introduce devextreme from React to show VIP statistics.
+5. Introduce sfcookies to access browser cookies.
+6. Sticky footer. 
+7. Use Grid from MaterialUI to show adaptive display of contents to screen
+   size and orientation.
+
+
+**************************************************************************
+                             Dictionary Structure
+**************************************************************************
+react-project
+├── backend
+│    ├── config
+│    │   └── logger.js
+│    ├── db
+│    │   ├──.env
+│    │   └── mongoose.js
+│    ├── models
+│    │   ├── credicard.js
+│    │   ├── info.js
+│    │   ├── login.js
+│    │   └── user.js
+│    ├── routes
+│    │   ├── admins.js
+│    │   ├── findmatch.js
+│    │   ├── login.js
+│    │   ├── register.js
+│    │   ├── signup.js
+│    │   └── upgrade.js
+│    ├── package.json
+│    └── server.js
+├── public
+└── src
+│   ├── actions
+│   │   ├── admin.js
+│   │   └── findmatch.js
+│   ├── Asset
+│   │   └── ...
+│   └── components
+│   │   ├── Admin
+│   │   │   ├── Amin.js
+│   │   │   ├── AdminStyle.css
+│   │   │   └── pie.js
+│   │   ├── FindMatch
+│   │   │   ├── FindMatch.css
+│   │   │   └── FindMatch.js
+│   │   ├── Footer
+│   │   │   ├── static
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.js
+│   │   ├── Header
+│   │   │   ├── static
+│   │   │   ├── Header.css
+│   │   │   └── Header.js   
+│   │   ├── Login
+│   │   │   ├── LoginForm
+│   │   │   │   ├── LoginForm.css
+│   │   │   │   └── LoginForm.js
+│   │   │   ├── SignUpForm
+│   │   │   │   ├── SingUpForm.css
+│   │   │   │   └── SignUpForm.js
+│   │   │   ├── Login.js
+│   │   │   └── LoginStyle.css   
+│   │   ├── Main
+│   │   │   ├── Main.js
+│   │   │   └── MainStyle.css
+│   │   ├── ManagePets
+│   │   │   ├── EditCancelTextBar
+│   │   │   │   └── EditCancelTextBar.js
+│   │   │   ├── ManagePets.css
+│   │   │   └── ManagePets.js
+│   │   ├── Register
+│   │   │   ├── Register.css
+│   │   │   └── Register.js
+│   │   ├── Upgrade
+│   │   │   ├── Upgrade.css
+│   │   │   └── Upgrade.js                
+│   │   ├── global.css
+│   ├── App.css
+│   ├── App.js
+│   ├── logo.svg
+│   ├── index.css
+│   ├── serviceWork.js
+│   ├── setupTests.js
+│   ├── package.json
+│   ├── phase2.txt
+└── package.json
